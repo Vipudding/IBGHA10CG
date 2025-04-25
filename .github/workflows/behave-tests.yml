@@ -20,9 +20,7 @@ jobs:
         python-version: '3.9'
 
     - name: Install Dependencies
-      run: |
-        pip install behave
+      run: pip install behave
 
     - name: Run Behave Tests
-      run: |
-        behave features/
+      run: behave features/
