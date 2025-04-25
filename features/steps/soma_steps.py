@@ -3,8 +3,8 @@ from soma import somar
 
 @given('que eu tenho dois números: {num1} e {num2}')
 def definir_numeros(context, num1, num2):
-    context.num1 = float(num1)  # Alterado para float
-    context.num2 = float(num2)  # Alterado para float
+    context.num1 = float(num1)
+    context.num2 = float(num2)
 
 @when('eu os somo')
 def somar_numeros(context):
